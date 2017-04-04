@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(200, 200, 180);
+}
+
+div {
+    background-color: black;
+    border: 2px solid black;
+    outline: 2px solid gold;
+    margin-right: inherit;
+}
+
+h1 {
+    color: gold;
+    background-color: black;
+    outline-color: gold;
+}
+
+img {
+    float: left;
+    width: 350px;
+    height: 350px;
+}
+
+h2 {
+    text-align: left;
+    color: rgb:(99, 99, 110);
+}
+
+li {
+    text-align: left;
+}
+
+p {
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+@media print {
+    p {page-break-inside: avoid;}
+}
+
+table {
+    table-layout: fixed;
+}
